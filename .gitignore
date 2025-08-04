@@ -1,0 +1,25 @@
+ESP_Edgedevice-backups/*
+Libraries/
+Production/
+
+
+# Lock files and autosaves
+~*.lck
+_autosave-*.kicad_pcb
+#auto_saved_files#
+
+# Backup and temp files
+*.bak
+*.tmp
+*.swp
+*.~*
+
+# KiCad user and cache files
+*.kicad_prl
+fp-info-cache
+sym-lib-table
+
+# Project-specific local changes
+*.kicad_pro
+*.kicad_sch-bak
+*.kicad_pcb-bak
