@@ -1351,46 +1351,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SRD-05VDC-SL-C:SRD-05VDC-SL-C"
+		(symbol "SLA-05VDC-SL-C:SLA-05VDC-SL-C"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at -5.0809 5.843 0)
+				(at 12.7 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "SRD-05VDC-SL-C"
-				(at -5.0832 -10.1664 0)
+			(property "Value" "SLA-05VDC-SL-C"
+				(at 12.7 5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
+			(property "Footprint" "K_SLA_C_NFR"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "SLA-05VDC-SL-C"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
@@ -1404,136 +1403,39 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Songle Relay"
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Description_1" "5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi"
+			(property "ki_keywords" "SLA-05VDC-SL-C"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "NON STANDARD-5 Songle Relay"
+			(property "ki_fp_filters" "K_SLA_C_NFR"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC-7251"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SRD-05VDC-SL-C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "SONGLE RELAY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SRD-05VDC-SL-C_0_0"
+			(symbol "SLA-05VDC-SL-C_0_1"
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54)
+						(xy 7.62 2.54) (xy 7.62 -10.16)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 0.254) (xy -3.556 -2.794)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1542,10 +1444,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.556 -2.794) (xy -2.54 -2.794)
+						(xy 7.62 0) (xy 8.89 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1554,10 +1456,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -2.54 0.254)
+						(xy 7.62 -7.62) (xy 8.89 -7.62)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1566,10 +1468,58 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0.254) (xy -3.556 0.254)
+						(xy 7.62 -10.16) (xy 17.78 -10.16)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -1.27)
+					(mid 9.5222 -1.905)
+					(end 8.89 -2.54)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -2.54)
+					(mid 9.5222 -3.175)
+					(end 8.89 -3.81)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -3.81)
+					(mid 9.5222 -4.445)
+					(end 8.89 -5.08)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -5.08)
+					(mid 9.5222 -5.715)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1578,10 +1528,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -2.794) (xy -2.54 -5.08)
+						(xy 8.89 0) (xy 8.89 -1.27)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1590,10 +1540,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -2.794) (xy -1.524 -2.794)
+						(xy 8.89 -7.62) (xy 8.89 -6.35)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1602,10 +1552,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -5.08) (xy -5.08 -5.08)
+						(xy 11.43 -1.27) (xy 11.43 -6.35)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1614,10 +1564,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy -2.54 0.254)
+						(xy 11.43 -6.35) (xy 16.51 -6.35)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1626,10 +1576,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -2.794) (xy -1.524 0.254)
+						(xy 12.3825 -1.27) (xy 11.43 -1.27)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1638,10 +1588,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 0)
+						(xy 12.7 -1.27) (xy 15.24 -0.3175)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1649,22 +1599,10 @@
 					)
 				)
 				(circle
-					(center 2.54 0)
-					(radius 0.254)
+					(center 12.7 -1.27)
+					(radius 0.3048)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1672,10 +1610,21 @@
 					)
 				)
 				(circle
-					(center 2.54 -2.54)
-					(radius 0.254)
+					(center 15.24 0)
+					(radius 0.3048)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 15.24 -2.54)
+					(radius 0.3048)
+					(stroke
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1684,10 +1633,21 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -5.08) (xy 5.08 -5.08)
+						(xy 16.51 -5.08) (xy 16.51 -7.62)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 16.51 -6.35)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -1696,10 +1656,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.556 -1.27) (xy 2.286 -2.286)
+						(xy 16.51 -7.62) (xy 17.78 -7.62)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1708,10 +1668,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.556 -1.27) (xy 4.318 -1.27)
+						(xy 17.78 2.54) (xy 7.62 2.54)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1720,10 +1680,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.318 0) (xy 5.08 0)
+						(xy 17.78 0) (xy 15.5575 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1732,10 +1692,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.318 -1.27) (xy 4.318 0)
+						(xy 17.78 -2.54) (xy 15.5575 -2.54)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1744,102 +1704,132 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 2.54 2.54)
+						(xy 17.78 -5.08) (xy 16.51 -5.08)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
+				(polyline
+					(pts
+						(xy 17.78 -10.16) (xy 17.78 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A1"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name "~"
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A2"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "NO"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
+				(pin unspecified line
+					(at 25.4 0 180)
+					(length 7.62)
+					(name "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "COM"
+					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "~"
+				(pin unspecified line
+					(at 25.4 -2.54 180)
+					(length 7.62)
+					(name "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "NC"
+					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -5.08 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -7.62 180)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2259,7 +2249,7 @@
 		(at 166.37 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02c60b27-2105-4468-9b0b-8eeec5828180")
+		(uuid "0855f342-8f14-4037-935e-725b6e856da8")
 	)
 	(junction
 		(at 153.67 73.66)
@@ -2286,10 +2276,16 @@
 		(uuid "3b37be46-f555-46ff-8be1-d3898f4f09b6")
 	)
 	(junction
+		(at 195.58 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dca7fa1f-139d-4102-8c3a-e50b88155377")
+	)
+	(junction
 		(at 166.37 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0ffc63f-37ae-46a4-b988-c4edc652ad70")
+		(uuid "f2d4a66b-af22-4d32-99b7-bfe70b96a944")
 	)
 	(wire
 		(pts
@@ -2323,13 +2319,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 101.6) (xy 185.42 101.6)
+			(xy 166.37 93.98) (xy 170.18 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a285809-ef07-4917-893b-1bad631900f6")
+		(uuid "0f19e6e1-9779-4af2-bc2b-01cc9406c843")
+	)
+	(wire
+		(pts
+			(xy 195.58 100.33) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126a8152-2f0d-4b40-a3bd-fce51941db36")
 	)
 	(wire
 		(pts
@@ -2350,6 +2356,16 @@
 			(type default)
 		)
 		(uuid "23c28754-73eb-4601-a613-a3a9a5552330")
+	)
+	(wire
+		(pts
+			(xy 195.58 96.52) (xy 196.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2523ebd8-c123-4774-bf96-dffc9a9c0df1")
 	)
 	(wire
 		(pts
@@ -2393,16 +2409,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 101.6) (xy 170.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367c8cd7-4a7f-46fc-8b45-930c1267f3ed")
-	)
-	(wire
-		(pts
 			(xy 140.97 106.68) (xy 151.13 106.68)
 		)
 		(stroke
@@ -2420,16 +2426,6 @@
 			(type default)
 		)
 		(uuid "3dfeedae-ca26-41d7-8232-178563f6e0e0")
-	)
-	(wire
-		(pts
-			(xy 166.37 93.98) (xy 170.18 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "437d3ee0-db95-46f8-a666-b6dfa46c0b90")
 	)
 	(wire
 		(pts
@@ -2463,16 +2459,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 93.98) (xy 185.42 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "587b34b7-6508-4922-8c73-57f9ca9b41d9")
-	)
-	(wire
-		(pts
 			(xy 153.67 95.25) (xy 153.67 73.66)
 		)
 		(stroke
@@ -2480,6 +2466,16 @@
 			(type default)
 		)
 		(uuid "67cb33ef-3553-4c85-9706-4ac9c4901ed1")
+	)
+	(wire
+		(pts
+			(xy 195.58 93.98) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f46116-6692-4ae0-9ccf-820c9eac897a")
 	)
 	(wire
 		(pts
@@ -2520,6 +2516,16 @@
 			(type default)
 		)
 		(uuid "98f619fd-33a7-4527-ab0e-424f7139f3bb")
+	)
+	(wire
+		(pts
+			(xy 195.58 99.06) (xy 195.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbf6fc7-613f-4569-b8b2-3138bcac888f")
 	)
 	(wire
 		(pts
@@ -2573,13 +2579,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 96.52) (xy 185.42 96.52)
+			(xy 166.37 101.6) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca8b6198-690c-47fb-ae69-f019a68f4ff7")
+		(uuid "b33c59e8-43a7-4b82-adaf-4b9ae8987c23")
 	)
 	(wire
 		(pts
@@ -2600,6 +2606,16 @@
 			(type default)
 		)
 		(uuid "dc28d088-39fe-495f-b1b9-8aa734cb898b")
+	)
+	(wire
+		(pts
+			(xy 195.58 100.33) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1439d4-eccd-4675-bf57-fe3dd8e35232")
 	)
 	(wire
 		(pts
@@ -2673,7 +2689,7 @@
 	)
 	(hierarchical_label "NC"
 		(shape passive)
-		(at 194.31 101.6 0)
+		(at 196.85 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2684,7 +2700,7 @@
 	)
 	(hierarchical_label "COM"
 		(shape passive)
-		(at 194.31 96.52 0)
+		(at 196.85 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,7 +2722,7 @@
 	)
 	(hierarchical_label "NO"
 		(shape passive)
-		(at 194.31 93.98 0)
+		(at 196.85 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3016,6 +3032,88 @@
 		)
 	)
 	(symbol
+		(lib_id "SLA-05VDC-SL-C:SLA-05VDC-SL-C")
+		(at 170.18 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34901aec-4f09-4d58-be9f-fb808741d3e1")
+		(property "Reference" "K2"
+			(at 182.88 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SLA-05VDC-SL-C"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "K_SLA_C_NFR"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://SLA-05VDC-SL-A.pdf"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "086aa36b-025e-4b69-83f6-9d824fde92c6")
+		)
+		(pin "5"
+			(uuid "e8012f73-67cb-48c4-9b05-f81fc304afa8")
+		)
+		(pin "6"
+			(uuid "b5ac1f5c-c388-4266-bee2-86effd08388f")
+		)
+		(pin "2"
+			(uuid "cb52f44b-ef9c-4b96-996e-a1277e96ede9")
+		)
+		(pin "1"
+			(uuid "02878641-fba6-4d2e-a72b-b0f8d7aea95c")
+		)
+		(pin "3"
+			(uuid "41439ad2-1b75-42d4-9774-a58f744d2ae0")
+		)
+		(instances
+			(project ""
+				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 95.25 90)
 		(unit 1)
@@ -3213,184 +3311,6 @@
 			(project ""
 				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SRD-05VDC-SL-C:SRD-05VDC-SL-C")
-		(at 177.8 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b84401f-09a5-48a6-ac0d-e96c0b135b35")
-		(property "Reference" "K1"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SRD-05VDC-SL-C"
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Songle Relay"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON STANDARD-5 Songle Relay"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7251"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SRD-05VDC-SL-C"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "SONGLE RELAY"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "b539d210-b9e0-4b77-a826-5205353dd61a")
-		)
-		(pin "A2"
-			(uuid "cacd0039-693d-445a-989a-e4f61c472ef0")
-		)
-		(pin "NO"
-			(uuid "74a9a7ed-e540-4604-93d1-4e87a671f62c")
-		)
-		(pin "COM"
-			(uuid "2adfc2af-9bce-4834-88e2-40cc73fad1f7")
-		)
-		(pin "NC"
-			(uuid "092ab64b-9ed0-4bf5-8c03-e67f219a9667")
-		)
-		(instances
-			(project ""
-				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
-					(reference "K1")
 					(unit 1)
 				)
 			)
