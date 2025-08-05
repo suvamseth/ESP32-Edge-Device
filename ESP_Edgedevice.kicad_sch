@@ -1115,10 +1115,343 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HLK-5M05:HLK-5M05"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "HLK-5M05"
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "HLK-5M05:CONV_HLK-5M05"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Hi-link"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/HLK-5M05/Hi-link/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/HLK-5M05/Hi-link/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "HLK-5M05"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "HI-LINK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "HLK-5M05_0_0"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "AC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "AC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "+VO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "-VO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
-		(start 168.91 90.17)
-		(end 270.51 156.21)
+		(start 185.42 106.68)
+		(end 264.16 157.48)
 		(stroke
 			(width 0)
 			(type default)
@@ -1130,7 +1463,7 @@
 	)
 	(text "Relay part\n"
 		(exclude_from_sim no)
-		(at 175.26 92.71 0)
+		(at 193.04 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1140,7 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 105.41) (xy 223.52 105.41)
+			(xy 198.12 125.73) (xy 208.28 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1150,7 +1483,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 139.7) (xy 238.76 139.7)
+			(xy 238.76 144.78) (xy 245.11 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 97.79) (xy 223.52 97.79)
+			(xy 198.12 118.11) (xy 208.28 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1503,37 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 135.89) (xy 238.76 135.89)
+			(xy 113.03 57.15) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297273f6-1f89-4c2f-84dc-15936d88793e")
+	)
+	(wire
+		(pts
+			(xy 110.49 116.84) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbd6195-062a-4749-8088-790e795b3900")
+	)
+	(wire
+		(pts
+			(xy 111.76 172.72) (xy 114.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4224505a-1310-4825-b5cf-8aa3f5dfc2e4")
+	)
+	(wire
+		(pts
+			(xy 238.76 140.97) (xy 245.11 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1543,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 139.7) (xy 199.39 139.7)
+			(xy 198.12 144.78) (xy 205.74 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1190,7 +1553,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 156.21) (xy 82.55 156.21)
+			(xy 113.03 58.42) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e053b0-cca9-42a1-b6c0-7c3fbfab8b72")
+	)
+	(wire
+		(pts
+			(xy 67.31 176.53) (xy 74.93 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +1573,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 152.4) (xy 82.55 152.4)
+			(xy 111.76 177.8) (xy 114.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802963c5-6c79-45c1-9fc4-da2a219f7c3f")
+	)
+	(wire
+		(pts
+			(xy 67.31 172.72) (xy 74.93 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1210,7 +1593,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 132.08) (xy 238.76 132.08)
+			(xy 110.49 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a839bf-7b82-4e9c-88bf-5c20c3ad9584")
+	)
+	(wire
+		(pts
+			(xy 238.76 137.16) (xy 245.11 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1613,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 105.41) (xy 223.52 104.14)
+			(xy 208.28 125.73) (xy 208.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 43.18) (xy 109.22 43.18)
+			(xy 113.03 57.15) (xy 114.3 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1240,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 101.6) (xy 223.52 101.6)
+			(xy 198.12 121.92) (xy 208.28 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 160.02) (xy 82.55 160.02)
+			(xy 67.31 180.34) (xy 74.93 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1260,7 +1653,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 97.79) (xy 223.52 99.06)
+			(xy 208.28 118.11) (xy 208.28 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1270,7 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 132.08) (xy 199.39 132.08)
+			(xy 198.12 137.16) (xy 205.74 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1280,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 135.89) (xy 199.39 135.89)
+			(xy 198.12 140.97) (xy 205.74 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1288,19 +1681,31 @@
 		)
 		(uuid "ed62ead8-b97e-4750-a24f-f217f26ff87a")
 	)
-	(label "VCC"
-		(at 109.22 43.18 0)
+	(global_label "VCC_3.3"
+		(shape passive)
+		(at 114.3 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "d6451231-7141-48a3-a346-12c5579b7afd")
+		(uuid "0e937442-73eb-4853-8327-3e50dee087d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.7939 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NO"
 		(shape passive)
-		(at 213.36 97.79 180)
+		(at 198.12 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1310,7 +1715,7 @@
 		)
 		(uuid "13f640f6-3a61-41fc-bc27-66487c267ffa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.8251 97.79 0)
+			(at 193.5851 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,9 +1725,53 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape passive)
+		(at 114.3 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "167b5afb-60e3-4b40-a17c-076a515cf43e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.8025 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 114.3 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f3678e2-f875-4278-8909-7bd49611ea72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.0444 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "INPUT"
 		(shape passive)
-		(at 191.77 135.89 180)
+		(at 198.12 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1332,7 +1781,7 @@
 		)
 		(uuid "33975353-1eb0-4897-ae9c-ec320be7f2e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3927 135.89 0)
+			(at 190.7427 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,9 +1791,32 @@
 			)
 		)
 	)
+	(global_label "NEUTRAL"
+		(shape input)
+		(at 114.3 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 110 1)
+			)
+			(justify left)
+		)
+		(uuid "349263ab-1761-4500-9aeb-04d3b4ea4fb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.4495 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC_3.3"
 		(shape passive)
-		(at 74.93 156.21 180)
+		(at 67.31 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1354,7 +1826,7 @@
 		)
 		(uuid "4d9211f2-c56d-45f0-b1dc-8d7a6fd7bb49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.4361 156.21 0)
+			(at 57.8161 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +1838,7 @@
 	)
 	(global_label "VCC"
 		(shape passive)
-		(at 74.93 152.4 180)
+		(at 67.31 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1376,7 +1848,7 @@
 		)
 		(uuid "581fca4a-3662-43e8-ba70-ebd42c254d88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.4275 152.4 0)
+			(at 61.8075 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1860,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 191.77 132.08 180)
+		(at 198.12 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1398,7 +1870,7 @@
 		)
 		(uuid "68b097ee-27df-4e3c-bde9-85c3b7cbed10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.0256 132.08 0)
+			(at 192.3756 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,9 +1880,54 @@
 			)
 		)
 	)
+	(global_label "LIVE"
+		(shape input)
+		(at 114.3 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 43 48 1)
+			)
+			(justify left)
+		)
+		(uuid "69e4808f-66f7-4341-9d33-36ad7db8dafb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.1557 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 102.87 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7045b20b-4ffa-41d5-8fab-4d1f866982ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.6144 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NO"
 		(shape passive)
-		(at 238.76 132.08 0)
+		(at 245.11 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1420,7 +1937,7 @@
 		)
 		(uuid "9df711d6-4ca6-4ac0-9182-c09452f19e79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.2949 132.08 0)
+			(at 249.6449 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1949,7 @@
 	)
 	(global_label "COM"
 		(shape passive)
-		(at 213.36 101.6 180)
+		(at 198.12 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1442,7 +1959,7 @@
 		)
 		(uuid "a2bfa22f-2ab0-4e2d-9af7-a04e9c94dade")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.4342 101.6 0)
+			(at 192.1942 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1971,7 @@
 	)
 	(global_label "VCC"
 		(shape passive)
-		(at 191.77 139.7 180)
+		(at 198.12 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1464,7 +1981,7 @@
 		)
 		(uuid "b920651f-2912-4ed6-a7ec-578877b13577")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.2675 139.7 0)
+			(at 192.6175 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,7 +1993,7 @@
 	)
 	(global_label "NC"
 		(shape passive)
-		(at 238.76 139.7 0)
+		(at 245.11 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1486,7 +2003,7 @@
 		)
 		(uuid "becfc40f-e85b-45ef-be29-e7c0c3c91432")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.2344 139.7 0)
+			(at 249.5844 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,9 +2013,32 @@
 			)
 		)
 	)
+	(global_label "NEUTRAL"
+		(shape input)
+		(at 77.47 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 110 1)
+			)
+			(justify right)
+		)
+		(uuid "c6a1f8b4-9345-414d-8b14-7f9ce749997e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.3205 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COM"
 		(shape passive)
-		(at 238.76 135.89 0)
+		(at 245.11 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1508,7 +2048,7 @@
 		)
 		(uuid "e8328b40-62a7-43d7-9b25-28a27378882a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.6858 135.89 0)
+			(at 251.0358 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,9 +2058,54 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape passive)
+		(at 102.87 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8ad5ce0-c132-4618-8c53-125774b9760a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.3725 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIVE"
+		(shape input)
+		(at 77.47 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 43 48 1)
+			)
+			(justify right)
+		)
+		(uuid "fb4d93df-8cc4-490c-9029-863540e690d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.6143 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape passive)
-		(at 74.93 160.02 180)
+		(at 67.31 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1530,7 +2115,7 @@
 		)
 		(uuid "fd05df45-ef96-4453-ae9a-00aacdcdea20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.1856 160.02 0)
+			(at 61.5656 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +2127,7 @@
 	)
 	(global_label "NC"
 		(shape passive)
-		(at 213.36 105.41 180)
+		(at 198.12 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1552,7 +2137,7 @@
 		)
 		(uuid "ff2cc3b8-c986-4f6e-996b-a1b84fcc3a40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.8856 105.41 0)
+			(at 193.6456 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +2149,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 228.6 101.6 0)
+		(at 213.36 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1573,7 +2158,7 @@
 		(fields_autoplaced yes)
 		(uuid "26e82458-b523-4107-9e9b-0ccbb0574e3e")
 		(property "Reference" "J1"
-			(at 231.14 100.3299 0)
+			(at 215.9 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +2167,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 231.14 102.8699 0)
+			(at 215.9 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +2176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 101.6 0)
+			(at 213.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +2185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 101.6 0)
+			(at 213.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +2194,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 228.6 101.6 0)
+			(at 213.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,33 +2221,97 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32_NODEMCU:ESP32_NODEMCU")
-		(at 78.74 76.2 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fcce793-1b50-48f1-a5cd-d04aa2c9ad5d")
+		(property "Reference" "H4"
+			(at 161.29 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP_Edgedevice"
+				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HLK-5M05:HLK-5M05")
+		(at 90.17 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ce324e53-1bcb-4250-98c8-c5bb2e621e1f")
-		(property "Reference" "U1"
-			(at 78.74 35.56 0)
+		(uuid "75fc079d-06d0-4315-bbd5-2cc40f962013")
+		(property "Reference" "PS1"
+			(at 90.17 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ESP32_NODEMCU"
-			(at 78.74 38.1 0)
+		(property "Value" "HLK-5M05"
+			(at 90.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ESP32_NODEMCU:MODULE_ESP32_NODEMCU"
-			(at 78.74 76.2 0)
+		(property "Footprint" "HLK-5M05:CONV_HLK-5M05"
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +2321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 76.2 0)
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +2330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 76.2 0)
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,8 +2338,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "AZ Delivery"
-			(at 78.74 76.2 0)
+		(property "MF" "Hi-link"
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,8 +2348,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
-			(at 78.74 76.2 0)
+		(property "Description_1" ""
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +2359,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 78.74 76.2 0)
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +2369,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 78.74 76.2 0)
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,8 +2378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ESP32%20NODEMCU/AZ+Displays/view-part/?ref=eda"
-			(at 78.74 76.2 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/HLK-5M05/Hi-link/view-part/?ref=eda"
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,7 +2389,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 78.74 76.2 0)
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,8 +2398,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32%20NODEMCU/AZ+Displays/view-part/?ref=snap"
-			(at 78.74 76.2 0)
+		(property "PARTREV" "N/A"
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,8 +2408,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ESP32 NODEMCU"
-			(at 78.74 76.2 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HLK-5M05/Hi-link/view-part/?ref=snap"
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,8 +2418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "NodeMCU is an open source loT platform. ESP32 is a series of low cost, low power\nsystem-on-chip (SoC) microcontrollers with integrated Wi-Fi and dual-mode Bluetooth."
-			(at 78.74 76.2 0)
+		(property "MP" "HLK-5M05"
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +2429,320 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 78.74 76.2 0)
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "HI-LINK"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50753351-4772-4840-acc3-66c90603f47d")
+		)
+		(pin "1"
+			(uuid "1609c783-e067-45ca-8679-910e407199b6")
+		)
+		(pin "3"
+			(uuid "afa6379e-f478-41b8-9ec0-7f8276f952b0")
+		)
+		(pin "4"
+			(uuid "ac3f3195-ffd0-401a-9eb0-1af16dcb8787")
+		)
+		(instances
+			(project ""
+				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b04f9def-a76b-455a-8f1c-476847e501f1")
+		(property "Reference" "H2"
+			(at 161.29 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP_Edgedevice"
+				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf964357-66a1-49ac-b932-566dbf504591")
+		(property "Reference" "H1"
+			(at 161.29 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_NODEMCU:ESP32_NODEMCU")
+		(at 90.17 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce324e53-1bcb-4250-98c8-c5bb2e621e1f")
+		(property "Reference" "U1"
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32_NODEMCU"
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESP32_NODEMCU:MODULE_ESP32_NODEMCU"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AZ Delivery"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ESP32%20NODEMCU/AZ+Displays/view-part/?ref=eda"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32%20NODEMCU/AZ+Displays/view-part/?ref=snap"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ESP32 NODEMCU"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "NodeMCU is an open source loT platform. ESP32 is a series of low cost, low power\nsystem-on-chip (SoC) microcontrollers with integrated Wi-Fi and dual-mode Bluetooth."
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 90.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +2752,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AZ Delivery"
-			(at 78.74 76.2 0)
+			(at 90.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,9 +2884,73 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef47a7d1-ad74-428d-a4f2-5d58716a193b")
+		(property "Reference" "H3"
+			(at 161.29 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP_Edgedevice"
+				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 199.39 123.19)
-		(size 33.02 25.4)
+		(at 205.74 132.08)
+		(size 33.02 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1939,7 +2965,7 @@
 		)
 		(uuid "c380d0b5-0235-468c-a489-737f32e01687")
 		(property "Sheetname" "Relay"
-			(at 199.39 122.4784 0)
+			(at 205.74 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +2974,7 @@
 			)
 		)
 		(property "Sheetfile" "relay.kicad_sch"
-			(at 199.39 149.1746 0)
+			(at 205.74 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +2983,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 199.39 132.08 180)
+			(at 205.74 137.16 180)
 			(uuid "fe836fb0-3d7e-493d-b19e-a24dd154b7c9")
 			(effects
 				(font
@@ -1967,7 +2993,7 @@
 			)
 		)
 		(pin "VCC" passive
-			(at 199.39 139.7 180)
+			(at 205.74 144.78 180)
 			(uuid "c55f5c72-64c2-46a6-95b2-d58454c72b00")
 			(effects
 				(font
@@ -1977,7 +3003,7 @@
 			)
 		)
 		(pin "NO" passive
-			(at 232.41 132.08 0)
+			(at 238.76 137.16 0)
 			(uuid "7f589336-96ff-4bae-8fc5-c98da40fd7c6")
 			(effects
 				(font
@@ -1987,7 +3013,7 @@
 			)
 		)
 		(pin "NC" passive
-			(at 232.41 139.7 0)
+			(at 238.76 144.78 0)
 			(uuid "2a7865ef-6b7f-4687-b22c-3f542f8693bb")
 			(effects
 				(font
@@ -1997,7 +3023,7 @@
 			)
 		)
 		(pin "COM" passive
-			(at 232.41 135.89 0)
+			(at 238.76 140.97 0)
 			(uuid "e496760c-0e7f-4b98-b41d-b2d0eaf9e78c")
 			(effects
 				(font
@@ -2007,7 +3033,7 @@
 			)
 		)
 		(pin "INPUT" passive
-			(at 199.39 135.89 180)
+			(at 205.74 140.97 180)
 			(uuid "e05fd3a4-a135-4b99-9aaf-13b3b1d9b5b3")
 			(effects
 				(font
@@ -2025,7 +3051,7 @@
 		)
 	)
 	(sheet
-		(at 82.55 144.78)
+		(at 74.93 165.1)
 		(size 36.83 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2041,7 +3067,7 @@
 		)
 		(uuid "c5694ac2-e399-4deb-beef-503951a91c7d")
 		(property "Sheetname" "Voltage Sensing"
-			(at 82.55 144.0684 0)
+			(at 74.93 164.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +3076,7 @@
 			)
 		)
 		(property "Sheetfile" "voltagesensing.kicad_sch"
-			(at 82.55 166.9546 0)
+			(at 74.93 187.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +3085,7 @@
 			)
 		)
 		(pin "VCC" passive
-			(at 82.55 152.4 180)
+			(at 74.93 172.72 180)
 			(uuid "5ca6e710-4e6a-41c2-9a54-55c923672de7")
 			(effects
 				(font
@@ -2069,7 +3095,7 @@
 			)
 		)
 		(pin "N" bidirectional
-			(at 119.38 157.48 0)
+			(at 111.76 177.8 0)
 			(uuid "b96faf21-4d99-492e-9546-dd14d3cde538")
 			(effects
 				(font
@@ -2079,7 +3105,7 @@
 			)
 		)
 		(pin "L" bidirectional
-			(at 119.38 153.67 0)
+			(at 111.76 172.72 0)
 			(uuid "ed5f080f-a28a-4b90-8f3c-dcf14e855d23")
 			(effects
 				(font
@@ -2089,7 +3115,7 @@
 			)
 		)
 		(pin "VCC_3.3" passive
-			(at 82.55 156.21 180)
+			(at 74.93 176.53 180)
 			(uuid "2d6c9a0e-cba2-4f3c-a81c-763df49fb9bb")
 			(effects
 				(font
@@ -2099,7 +3125,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 82.55 160.02 180)
+			(at 74.93 180.34 180)
 			(uuid "18f8971e-527a-4729-9c0e-b66e8d2eb631")
 			(effects
 				(font
