@@ -679,7 +679,7 @@
 				(justify left)
 			)
 		)
-		(pin "INPUT" input
+		(pin "INPUT" passive
 			(at 199.39 135.89 180)
 			(uuid "80edaf81-67bd-47dd-8f0c-2febfeefbddf")
 			(effects
