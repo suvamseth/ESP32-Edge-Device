@@ -17,6 +17,7 @@ _autosave-*.kicad_pcb
 # KiCad user and cache files
 *.kicad_prl
 fp-info-cache
+fp-lib-table
 sym-lib-table
 
 # Project-specific local changes
