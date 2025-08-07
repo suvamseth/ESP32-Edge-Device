@@ -2588,7 +2588,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3ac26d7-a7f7-42be-b7a5-b0012cce68e1")
+			(uuid "71e91929-382e-4b6a-9003-a394874dced3")
 		)
 		(instances
 			(project "ESP_Edgedevice"
@@ -2609,7 +2609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "062745f9-cc4c-4952-b748-800f60605fbb")
-		(property "Reference" "D1"
+		(property "Reference" "D"
 			(at 125.73 110.8074 90)
 			(effects
 				(font
@@ -2664,19 +2664,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cd5a48f-6b24-4d69-82b4-fe05fec8a7c7")
+			(uuid "6c8db807-af64-4e04-9b1c-f05c78f5da02")
 		)
 		(pin "2"
-			(uuid "cded75ed-56c6-4e40-bb51-1d150015814d")
+			(uuid "6f948480-05e4-4c63-bcf7-78f5fd763506")
 		)
-		(instances
-			(project ""
-				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2731,10 +2724,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "061d68e2-5547-409c-8f9a-192dbb1e8511")
+			(uuid "195c3654-0071-4cc3-9a41-b9b856310865")
 		)
 		(pin "2"
-			(uuid "8d5e5ecf-b47c-4493-ac72-362160485f75")
+			(uuid "9660adbe-5189-4c59-a8c7-5665eae6b6fc")
 		)
 		(instances
 			(project "ESP_Edgedevice"
@@ -2755,7 +2748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34901aec-4f09-4d58-be9f-fb808741d3e1")
-		(property "Reference" "K2"
+		(property "Reference" "K"
 			(at 182.88 86.36 0)
 			(effects
 				(font
@@ -2801,31 +2794,24 @@
 			)
 		)
 		(pin "4"
-			(uuid "086aa36b-025e-4b69-83f6-9d824fde92c6")
+			(uuid "e0f511e1-16f8-4256-a9b2-887567504dbc")
 		)
 		(pin "5"
-			(uuid "e8012f73-67cb-48c4-9b05-f81fc304afa8")
+			(uuid "c13f0636-a839-4b40-80b7-20f4e7997a33")
 		)
 		(pin "6"
-			(uuid "b5ac1f5c-c388-4266-bee2-86effd08388f")
+			(uuid "eb32b287-a427-4c27-a908-fb5cb8cc839c")
 		)
 		(pin "2"
-			(uuid "cb52f44b-ef9c-4b96-996e-a1277e96ede9")
+			(uuid "d6b76c5d-4906-4ade-ad19-39b95a8e66c9")
 		)
 		(pin "1"
-			(uuid "02878641-fba6-4d2e-a72b-b0f8d7aea95c")
+			(uuid "b6f60667-010b-4166-9ae8-9632b82c9843")
 		)
 		(pin "3"
-			(uuid "41439ad2-1b75-42d4-9774-a58f744d2ae0")
+			(uuid "4da8f727-a70c-4c67-89ef-5b0025e1dadc")
 		)
-		(instances
-			(project ""
-				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2837,7 +2823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9bcc51-7202-4ea9-92c0-0dcae1f21c51")
-		(property "Reference" "R2"
+		(property "Reference" "R"
 			(at 125.73 88.9 90)
 			(effects
 				(font
@@ -2881,19 +2867,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "64aca669-65eb-4510-8611-ea3eabc8b2dd")
+			(uuid "0a31f116-38b7-44bd-881d-2bc5e944ea39")
 		)
 		(pin "2"
-			(uuid "4fff8115-3047-40f4-8727-736334ece8ed")
+			(uuid "35cda6c0-e93c-4068-8b33-4a6be258b67b")
 		)
-		(instances
-			(project ""
-				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2905,7 +2884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d706023-5ad1-481d-94bb-d04443b22561")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR"
 			(at 161.29 130.81 0)
 			(effects
 				(font
@@ -2950,16 +2929,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "5675cd11-604c-4e20-83c9-550952f5399d")
+			(uuid "a3b48c78-1776-4c3d-ba6e-90e053df2a12")
 		)
-		(instances
-			(project ""
-				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
@@ -2970,7 +2942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a5d6ba5-b1d0-4438-a5ea-3dad99f72fd9")
-		(property "Reference" "J2"
+		(property "Reference" "J"
 			(at 135.89 71.12 90)
 			(effects
 				(font
@@ -3016,19 +2988,12 @@
 			)
 		)
 		(pin "2"
-			(uuid "a23dcc26-52fb-4b0f-9e1b-e9d87319c839")
+			(uuid "c53a3e58-799f-4711-98bd-80d31da9427f")
 		)
 		(pin "1"
-			(uuid "3206fcd6-e7d0-468a-ba25-d3671c3753e2")
+			(uuid "c68e889d-3b26-48db-b0a6-3c7bea03a6d0")
 		)
-		(instances
-			(project ""
-				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Transistor_BJT:S8050")
@@ -3040,7 +3005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af07658a-5e5c-40eb-aae8-3f8791f4ec56")
-		(property "Reference" "Q1"
+		(property "Reference" "Q"
 			(at 163.83 111.7599 0)
 			(effects
 				(font
@@ -3089,22 +3054,15 @@
 			)
 		)
 		(pin "3"
-			(uuid "e66d9367-2909-4304-98ed-c7268e066fc5")
+			(uuid "e9e58d6e-994a-457d-b0d5-a7e46687803d")
 		)
 		(pin "2"
-			(uuid "09d0d75b-d67b-4ca7-a3d0-6d292d149438")
+			(uuid "d7c8fd86-4c81-4550-8384-69f548fb9045")
 		)
 		(pin "1"
-			(uuid "745eeaad-9307-492c-881e-18a5e6c4a26e")
+			(uuid "b2f62944-8cab-4f41-8e62-4eee6d3e9f6c")
 		)
-		(instances
-			(project ""
-				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "PC817X3NSZ1B:PC817X3NSZ1B")
@@ -3116,7 +3074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb364bc3-da4e-40a9-b1b5-f6652940c33c")
-		(property "Reference" "U1"
+		(property "Reference" "U"
 			(at 140.97 87.63 0)
 			(effects
 				(font
@@ -3281,25 +3239,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "376d49f1-f612-460c-89d1-bbeac0e11468")
+			(uuid "2aa5025f-77b2-42f1-bf91-af428fef7294")
 		)
 		(pin "1"
-			(uuid "024737e2-e60e-4dce-a443-d122535adf57")
+			(uuid "4407d89e-9423-4415-966b-ecc9854361af")
 		)
 		(pin "2"
-			(uuid "554f7398-ae47-4449-900b-8772b05bc59d")
+			(uuid "d7d986da-d0f1-4417-98be-1a16f7eb72c1")
 		)
 		(pin "4"
-			(uuid "11c8c817-7e06-428d-9931-0bcb6b1ae9ce")
+			(uuid "30a69b24-693c-43bf-87f2-2c00ff880460")
 		)
-		(instances
-			(project ""
-				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
@@ -3310,7 +3261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec4affe6-2201-411b-957d-aedd62b69c8b")
-		(property "Reference" "D2"
+		(property "Reference" "D"
 			(at 160.02 88.9 90)
 			(effects
 				(font
@@ -3374,18 +3325,11 @@
 			)
 		)
 		(pin "2"
-			(uuid "edb4cebb-970f-40ce-ad0d-d545ce8bdb3c")
+			(uuid "3ef190ec-e225-4900-ba53-52c48cdb0fa1")
 		)
 		(pin "1"
-			(uuid "b06088da-24b6-4052-aed5-86bb99f8d336")
+			(uuid "47308354-a84e-4722-9c44-bf37989169ec")
 		)
-		(instances
-			(project ""
-				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 )

@@ -616,6 +616,10 @@
     [
       "c380d0b5-0235-468c-a489-737f32e01687",
       "Relay"
+    ],
+    [
+      "806ba1af-f0ba-4182-8795-26f4db8d47a2",
+      "Voltage Sensing"
     ]
   ],
   "text_variables": {
