@@ -1,6 +1,7 @@
 ESP_Edgedevice-backups/*
 Libraries/
 Production/
+EasyEDA_Lib/
 
 
 # Lock files and autosaves

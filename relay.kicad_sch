@@ -2480,6 +2480,16 @@
 		)
 		(uuid "7e01b225-f124-4eed-a7ac-7f56f39c00ca")
 	)
+	(label "Relay"
+		(at 163.83 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90edac14-4549-4a7f-9e3c-3b8123fa0694")
+	)
 	(hierarchical_label "NC"
 		(shape passive)
 		(at 196.85 93.98 0)
