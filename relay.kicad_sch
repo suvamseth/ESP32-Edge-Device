@@ -2167,6 +2167,18 @@
 		(uuid "0a7e3161-3363-47eb-adf6-71b8909d2a01")
 	)
 	(junction
+		(at 121.92 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29d8f6b8-6cfb-4d77-bb57-62a379292f89")
+	)
+	(junction
+		(at 113.03 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5daf6348-7eac-4524-aefa-cc012e179138")
+	)
+	(junction
 		(at 166.37 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2214,6 +2226,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 95.25) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178749f0-3862-4a5e-bb99-fc5ee9578405")
+	)
+	(wire
+		(pts
 			(xy 140.97 113.03) (xy 144.78 113.03)
 		)
 		(stroke
@@ -2221,26 +2243,6 @@
 			(type default)
 		)
 		(uuid "22172f80-51cf-4070-8617-26d1c891f2f2")
-	)
-	(wire
-		(pts
-			(xy 121.92 106.68) (xy 121.92 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23c28754-73eb-4601-a613-a3a9a5552330")
-	)
-	(wire
-		(pts
-			(xy 121.92 114.3) (xy 121.92 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261b1921-be6d-420c-a35c-279b7d28219a")
 	)
 	(wire
 		(pts
@@ -2344,6 +2346,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 109.22) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801459fe-da58-4b09-b3b2-56a4b8c1b85b")
+	)
+	(wire
+		(pts
 			(xy 152.4 113.03) (xy 153.67 113.03)
 		)
 		(stroke
@@ -2351,6 +2363,16 @@
 			(type default)
 		)
 		(uuid "898d4382-6a5d-40ec-af6e-6851a48611f8")
+	)
+	(wire
+		(pts
+			(xy 113.03 118.11) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bed0cf1-7205-4a6c-b379-15571af4ba9d")
 	)
 	(wire
 		(pts
@@ -2364,13 +2386,23 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 95.25) (xy 121.92 95.25)
+			(xy 107.95 95.25) (xy 113.03 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1e35352-9200-4f0e-8aad-c33a7589db63")
+	)
+	(wire
+		(pts
+			(xy 121.92 100.33) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e79e0e-72bd-48f9-9fbb-3ad5ece73b78")
 	)
 	(wire
 		(pts
@@ -2381,6 +2413,26 @@
 			(type default)
 		)
 		(uuid "ad107fc0-557b-4bbc-b8ce-5a520c3bad96")
+	)
+	(wire
+		(pts
+			(xy 113.03 95.25) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5ab2f2-af62-4c42-b536-9b86283633f9")
+	)
+	(wire
+		(pts
+			(xy 121.92 118.11) (xy 121.92 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b23d28-0469-4a82-a0da-3171b5673f63")
 	)
 	(wire
 		(pts
@@ -2607,7 +2659,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 121.92 110.49 90)
+		(at 113.03 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2616,7 +2668,7 @@
 		(fields_autoplaced yes)
 		(uuid "062745f9-cc4c-4952-b748-800f60605fbb")
 		(property "Reference" "D1"
-			(at 125.73 110.8074 90)
+			(at 116.84 105.7274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2677,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 125.73 113.3474 90)
+			(at 116.84 108.2674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2686,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 121.92 110.49 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 110.49 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2704,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 121.92 110.49 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2713,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 121.92 110.49 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,6 +3450,73 @@
 			(project ""
 				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4e5cbbd-2159-450a-b635-25dd95b6132a")
+		(property "Reference" "R13"
+			(at 115.57 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 110.49 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+			(at 114.808 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff8bceb-cb8a-4991-8191-ed6100902888")
+		)
+		(pin "2"
+			(uuid "10090216-f1ad-4028-bc8a-30e9bb4a9d2c")
+		)
+		(instances
+			(project "ESP_Edgedevice"
+				(path "/8fa9f2a2-260d-4024-b3c1-a0bc52ef0867/c380d0b5-0235-468c-a489-737f32e01687"
+					(reference "R13")
 					(unit 1)
 				)
 			)

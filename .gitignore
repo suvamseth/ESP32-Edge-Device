@@ -1,7 +1,7 @@
 ESP_Edgedevice-backups/*
 Libraries/
 Production/
-
+EasyEDA_Lib/
 
 # Lock files and autosaves
 ~*.lck
@@ -24,3 +24,7 @@ sym-lib-table
 *.kicad_pro
 *.kicad_sch-bak
 *.kicad_pcb-bak
+
+#production files
+*.csv
+*.json
