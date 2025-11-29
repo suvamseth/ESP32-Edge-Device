@@ -7,7 +7,7 @@ EasyEDA_Lib/
 # Lock files and autosaves
 ~*.lck
 _autosave-*.kicad_pcb
-#auto_saved_files#
+
 
 # Backup and temp files
 *.bak
@@ -24,3 +24,7 @@ sym-lib-table
 *.kicad_pro
 *.kicad_sch-bak
 *.kicad_pcb-bak
+ 
+#Fabrication Outputs
+*.csv
+*.json
