@@ -1,3 +1,5 @@
+<div align="center">
+
 # Industrial IoT Smart Edge Device 
 
 **A robust, hybrid sensing Smart Edge Device designed for  home energy monitoring, industrial-grade energy monitoring and protection. Features dual-protocol communication (MQTT & Modbus).**
@@ -5,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Prototype%20V2-success)
 ![Hardware](https://img.shields.io/badge/Hardware-ESP32%20%7C%20PZEM--004T%20%7C%20EthernetModule%20(W5500)-blue)
 ![Connectivity](https://img.shields.io/badge/Connectivity-Ethernet%20%20%7C%20MQTT-orange)
-
+</div>
 ---
 
 ## 📖 Overview
