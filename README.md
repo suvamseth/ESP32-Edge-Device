@@ -8,7 +8,7 @@
 ![Hardware](https://img.shields.io/badge/Hardware-ESP32%20%7C%20PZEM--004T%20%7C%20EthernetModule%20(W5500)-blue)
 ![Connectivity](https://img.shields.io/badge/Connectivity-Ethernet%20%20%7C%20MQTT-orange)
 </div>
----
+
 
 ## 📖 Overview
 This Smart Edge Node (SED) functions as a comprehensive data acquisition and protection unit for household and industrial loads. Unlike standard smart plugs, this device integrates **hybrid sensing** architecture: it uses a **PZEM-004T** for precision metering and features **AMC1200 Isolation Amplifier** used for galvanic isolation and transient analysis, it also executes the on/off command of load using relay.
@@ -20,10 +20,10 @@ The system is engineered to prioritize reliability in noisy electrical environme
 ## 📸 Visuals
 | **3D PCB Render** | **Real Device** |
 |:---:|:---:|
-| ![3D Render](assets\ESP_Edgedevice_render.png) | ![Real Device](assets\realdevice.jpg) |
+| ![3D Render](assets/ESP_Edgedevice_render.png) | ![Real Device](assets/realdevice.jpg) |
 | *Final PCB Design (KiCad)* | *Final PCB from the fabricator* |
 
-> *Note: See the `/schematics` folder for the full PDF circuit diagram.*
+
 
 ---
 
